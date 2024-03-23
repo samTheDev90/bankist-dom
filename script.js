@@ -135,7 +135,7 @@ const secObserver = new IntersectionObserver(revSec, {
 allSection.forEach(sec => {
   secObserver.observe(sec);
 
-  //sec.classList.add('section--hidden');
+  sec.classList.add('section--hidden');
 });
 
 // lazy images
